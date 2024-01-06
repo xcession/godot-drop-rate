@@ -5,10 +5,10 @@ var common = 0
 var uncommon = 0
 var rare = 0
 
-onready var console = $MainContainer/ConsolePanel/Console
-onready var common_count = $MainContainer/ResultContainer/ResultPanel/Container/Common
-onready var uncommon_count = $MainContainer/ResultContainer/ResultPanel/Container/Uncommon
-onready var rare_count = $MainContainer/ResultContainer/ResultPanel/Container/Rare
+@onready var console = $MainContainer/ConsolePanel/Console
+@onready var common_count = $MainContainer/ResultContainer/ResultPanel/Container/Common
+@onready var uncommon_count = $MainContainer/ResultContainer/ResultPanel/Container/Uncommon
+@onready var rare_count = $MainContainer/ResultContainer/ResultPanel/Container/Rare
 
 
 func _ready():
